@@ -12,7 +12,4 @@
 */
 
 
-
-
-Route::view('permiso', 'permiso');
-
+Route::get('/', 'InicioController@index');
